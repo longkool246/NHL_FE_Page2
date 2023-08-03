@@ -1,0 +1,19 @@
+.paging {
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #4F77FF;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 5px;
+  
+}
+
+.active:hover {
+  opacity: 0.8;
+}

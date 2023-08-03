@@ -1,0 +1,32 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tags__items {
+  font-family: "DM Sans";
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  color: white;
+  background-color: #4F77FF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.article-title {
+  color: #2D3958;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "DM Sans";
+  letter-spacing: -0.3px; 
+}

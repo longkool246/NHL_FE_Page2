@@ -1,0 +1,45 @@
+.btn {
+  font-weight: 500;
+  padding: 13px 24px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  line-height: 1.71;
+  display: inline-block;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn--blue {
+  background-color: #4F77FF;
+}
+
+.btn--purple {
+  background-color: #886CFF;
+}
+
+.btn--gray {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  background-color: #E7E5EA;
+  color: #7B88A8;
+}
+
+.btn--coworking {
+  padding: 18px 32px;
+  background-color: #4F77FF;
+  cursor: pointer;
+}
+
+.btn--full {
+  display: block;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer; 
+}

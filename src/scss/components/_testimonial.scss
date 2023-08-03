@@ -1,0 +1,16 @@
+.testimonial-box {
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 35px;
+  text-align: center;  
+}
+
+.testimonial-box__img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  img {
+    border-radius: 50%;
+  }
+}
