@@ -1047,6 +1047,7 @@ select {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #E7E5EA;
+  align-items: center;
 }
 
 .shop-product__title {
