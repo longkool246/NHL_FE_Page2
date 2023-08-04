@@ -20,13 +20,13 @@
   transform: translateX(-50%);  
 }
 
-.project-box__content--title {
+.project-box__content-title {
   color: #ffffff;
   text-align: center;
   margin-bottom: 20px; 
 }
 
-.project-box__content--text {
+.project-box__content-text {
   color: #E7E5EA;
   text-align: center;
   font-size: 18px;
@@ -39,13 +39,16 @@
 }
 
 .subject {
-  padding-bottom: 25px;
+  padding-bottom: 27px;
   border-bottom: 1px solid #E7E5EA;
 }
 
 .subject__title {
   margin-top: 20px;
   margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #2D3958;
 }
 
 .subject__content {
@@ -72,7 +75,7 @@
   justify-content: space-between;
 }
 
-.subject__text--title {
+.subject__text-title {
   margin-bottom: 30px;
   font-size: 22px;
   font-weight: 400;

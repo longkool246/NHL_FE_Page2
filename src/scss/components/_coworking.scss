@@ -43,6 +43,17 @@
   font-family: "DM Sans";  
 }
 
+.space__icon {
+  --size: 90px;
+  margin: 0 auto;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
 .space__content--title {
   color: #2D3958;
 }
@@ -57,19 +68,16 @@
   gap: 130px;
 }
 
-.feature__left--content {
+.feature__left-content {
   font-size: 18px;
   line-height: 1.55;
+  max-width: 570px;
 
 }
 
-.feature__left--img {
+.feature__left-img {
   width: 100%;
   margin-bottom: 40px;
-}
-
-.feature__left--content {
-  max-width: 570px;
 }
 
 .info {
@@ -84,7 +92,7 @@
   margin-top: 50px;
 }
 
-.feature__right--link {
+.feature-link {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 500;
@@ -95,12 +103,12 @@
   }
 }
 
-.feature__right--button {
+.feature__group-button {
   display: flex;
   gap: 15px;  
 }
 
-.button-feature {
+.feature__button {
   width: 56px;
   height: 56px;
   border: 1px solid #E7E5EA;
@@ -108,7 +116,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; 
+  cursor: pointer;
+  &:hover {
+    border: none;
+    background-color: lightcyan;
+    transition: 0.3s ease;
+    box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.20);
+  } 
 }
 
 .office-box {
@@ -117,6 +131,11 @@
   .slide-box {
     position: absolute;
     z-index: 99;
+    &:hover {
+      background-color: lightcyan;
+      transition: 0.3s ease;
+      box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.20);
+    }
   }
 }
 
@@ -154,7 +173,7 @@
   margin: 5px 0;
 }
 
-.place__items--title {
+.place__items-title {
   margin-top: 30px;
   font-size: 22px;
   color: #4F77FF; 
@@ -173,7 +192,7 @@
   align-items: center; 
 }
 
-.price__items--title {
+.price__items-title {
   font-size: 18px;
 }
 
@@ -231,7 +250,7 @@ input:checked+ .slider {
   }
 }
 
-.price__items--sales {
+.price__items-sales {
   padding: 4px 12px;
   background-color: #34C635;
   color: #ffffff;
@@ -246,7 +265,11 @@ input:checked+ .slider {
   border-radius: 10px;
   .btn--full {
     margin: 0 -100px;
-  } 
+  }
+  &:hover {
+    transition: 0.3s ease;
+    box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.20);
+  }
 }
 
 .price-box__plan {

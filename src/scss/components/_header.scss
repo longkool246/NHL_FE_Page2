@@ -6,7 +6,7 @@
   transition: 0.3s ease;
 }
 
-.header--wrap {
+.header-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,7 @@
   align-items: center;
 }
 
-.header__right--bag {
+.header__right-bag {
   position: relative;
   &::before {
     position: absolute;

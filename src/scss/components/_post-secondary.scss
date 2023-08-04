@@ -55,7 +55,7 @@
   }
 }
 
-.img__content {
+.img-wrap {
   position: absolute;
   max-width: 170px;
   width: 100%;
@@ -65,7 +65,7 @@
   transform: translate(-50%, -50%);
 }
 
-.img__title {
+.img-wrap__title  {
   color: white;
   padding-bottom: 40px;
   font-weight: 400;
@@ -78,7 +78,7 @@
   font-weight: 500;
 }
 
-.comments__header--name {
+.comments__header-name {
   font-family: "DM Sans";
   color: #333333;
 }

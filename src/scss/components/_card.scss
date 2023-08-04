@@ -2,7 +2,10 @@
   border-radius: 12px;
   border: 1px solid #E7E5EA;
   padding: 40px 45px 70px 45px;
-  text-align: center;  
+  text-align: center;
+  &:hover {
+    background-color: lightcyan;
+  }  
 }
 
 .card--active {
