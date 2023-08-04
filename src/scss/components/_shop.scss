@@ -13,10 +13,10 @@
   img {
     max-width: 570px;
   }
-  .zoom {
+  .products-main__zoom {
     position: absolute;
     top: 15px;
-    right: 20px;
+    right: 20px;  
   }
 }
 
@@ -74,7 +74,7 @@
   }
 }
 
-.quantity {
+.product__quantity {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -91,20 +91,20 @@
   }
 }
 
-.products__social {
+.products-social {
   display: flex;
   gap: 40px;
   align-items: center;
 }
 
-.products__social--items {
+.products-social__items {
   display: flex;
   gap: 24px;
   align-items: center;
   cursor: pointer;
 }
 
-.products__infor {
+.products-infor {
   display: flex;
   gap: 20px;
   margin-top: 30px;
@@ -144,24 +144,11 @@
   line-height: 1.62;
 }
 
-.similar-title {
+.similar__title {
   color: #2D3958;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 80px;
-}
-
-.similar-products__title {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  margin: 15px 0 5px 0;
-  color: #2D3958;  
-}
-
-.similar-products__price {
-  font-family: "DM Sans";
-  text-align: center;
 }
 
 .title-second {

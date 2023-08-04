@@ -70,14 +70,14 @@
   letter-spacing: -0.3px;
 }
 
-.content__header {
+.post-main__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 30px;
 }
 
-.content__header-author {
+.post-main__header-author {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -87,18 +87,18 @@
   text-transform: uppercase;
 }
 
-.content__header-time {
+.post-main__header-time {
   font-size: 14px;
 }
 
-.content__title {
+.post-main__title {
   a {
     font-weight: 500;
     color: #2D3958;
   }
 }
 
-.content__description {
+.post-main__description {
   font-family: "DM Sans";
   padding-top: 30px;
   padding-bottom: 40px;

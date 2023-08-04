@@ -1,17 +1,17 @@
-.post-secondary {
+.sidebar-item {
   padding: 20px 30px 30px 30px;
   background-color: #F8FAFC;
   border-radius: 5px;
   margin-bottom: 30px;
 }
 
-.post-secondary__title {
+.sidebar-item__title {
   font-size: 18px;
   color: #2D3958;
   font-weight: 500;
 }
 
-.post-secondary__input {
+.sidebar-item__input {
   position: relative;
   input {
     padding-left: 20px;
@@ -26,21 +26,21 @@
   }
 }
 
-.post-secondary__news {
+.sidebar-item__news {
   display: flex;
   gap: 20px;
   align-items: center;
   padding-bottom: 20px;
 }
 
-.news__title {
+.sidebar-item__news-title {
   font-family: "DM Sans";
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
 }
 
-.post-secondary__img {
+.sidebar-item__img {
   position: relative;
   &::before {
     content: "";

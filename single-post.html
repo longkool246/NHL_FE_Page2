@@ -30,7 +30,7 @@
             <div class="header__right-bag">
               <img src="./image/Bag 2.svg" alt="">
             </div>
-            <div class="btn btn--blue">SIGN UP</div>
+            <a href="#" class="btn btn--blue">SIGN UP</a>
           </div>
         </div>
       </div>
@@ -56,19 +56,19 @@
                   <img src="./image/blog-post1.png" alt="">
                 </div>
                 <div class="post-main__content">
-                  <div class="content__header">
-                    <div class="content__header-author">
+                  <div class="post-main__header">
+                    <div class="post-main__header-author">
                       <img src="./image/Group 15 2.png" alt="">
                       <div class="author-name">Written By Admin</div>
                     </div>
-                    <div class="content__header-time">10 July, 2022</div>
+                    <div class="post-main__header-time">10 July, 2022</div>
                   </div>
-                  <h4 class="content__title">
+                  <h4 class="post-main__title">
                     <a href="single-post.html">
                       Vietnamese Fintech Startup Raises $25 M Series B Round From Ospace, Vietnam Investments Group
                     </a>
                   </h4>
-                  <div class="content__description">
+                  <div class="post-main__description">
                     Vietnamese fintech startup Finhay has raised a $25 million Series B round led by Singapore-based Openspace Ventures, an early backer of Indonesia's GoTo Group and 30 Under 30 Asia honoree Rexy Josh Dorado's Manila-based social media site Kumu, and private firm Vietnam Investments Group.
                   </div>
                   <div class="content__text pb-30">
@@ -110,26 +110,32 @@
                       <img src="./image/u_facebook.svg" alt="">
                     </div>
                   </div>
-                  <div class="post-secondary">
-                    <div class="post-secondary__title">Related Articles</div>
+                  <div class="sidebar-item">
+                    <div class="sidebar-item__title">Related Articles</div>
                     <div class="row">
                       <div class="col" style="--col-lg: 4; --col-xs: 12;">
-                        <img src="./image/article-1.png" alt="">
-                        <h6 class="article-title">
-                          Start Your First Week Of A New Job Like A Boss
-                        </h6>
+                        <div class="article">
+                          <img src="./image/article-1.png" alt="">
+                          <h6 class="article__title">
+                            Start Your First Week Of A New Job Like A Boss
+                          </h6>
+                        </div>
                       </div>
                       <div class="col" style="--col-lg: 4; --col-xs: 12;">
-                        <img src="./image/article-2.png" alt="">
-                        <h6 class="article-title">
-                          Pioneering A New Twist On Coworking Models
-                        </h6>
+                        <div class="article">
+                          <img src="./image/article-2.png" alt="">
+                          <h6 class="article__title">
+                            Pioneering A New Twist On Coworking Models
+                          </h6>
+                        </div>
                       </div>
                       <div class="col" style="--col-lg: 4; --col-xs: 12;">
-                        <img src="./image/article-3.png" alt="">
-                        <h6 class="article-title">
-                          The White-Label Software Model In Fintech
-                        </h6>
+                        <div class="article">
+                          <img src="./image/article-3.png" alt="">
+                          <h6 class="article__title">
+                            The White-Label Software Model In Fintech
+                          </h6>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -201,47 +207,49 @@
                         </div>
                       </div>
                     </div>
-                    <div class="comment-box__title">Write a Comment</div>
-                    <div class="comments__box-contact">
-                      <input type="text" placeholder="Name">
-                      <input type="text" placeholder="Email">
-                      <input type="text" placeholder="Website">
+                    <div class="comments-box">
+                      <div class="comments-box__title">Write a Comment</div>
+                      <div class="comments__box-contact">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Website">
+                      </div>
+                      <div class="comments__box-contact">
+                        <textarea name="Comments" id="cmt" cols="30" rows="10" placeholder="Enter comment"></textarea>
+                      </div>
+                      <a href="#" class="btn btn--blue">SUBMIT</a>
                     </div>
-                    <div class="comments__box-contact">
-                      <textarea name="Comments" id="cmt" cols="30" rows="10" placeholder="Enter comment"></textarea>
-                    </div>
-                    <div class="btn btn--blue">SUBMIT</div>
                   </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="blog__sidebar">
-              <div class="post-secondary">
-                <div class="post-secondary__title">Search</div>
-                <div class="post-secondary__input">
+              <div class="sidebar-item">
+                <div class="sidebar-item__title">Search</div>
+                <div class="sidebar-item__input">
                   <input type="text" placeholder="Enter">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
               </div>
-              <div class="post-secondary">
-                <div class="post-secondary__title">Latest News</div>
-                <div class="post-secondary__news">
+              <div class="sidebar-item">
+                <div class="sidebar-item__title">Latest News</div>
+                <div class="sidebar-item__news">
                   <img src="./image/new1.png" alt="">
-                  <div class="news__title">Start Your First Week Of A New Job Like A Boss</div>
+                  <div class="sidebar-item__news-title">Start Your First Week Of A New Job Like A Boss</div>
                 </div>
-                <div class="post-secondary__news">
+                <div class="sidebar-item__news">
                   <img src="./image/new2.png" alt="">
-                  <div class="news__title">Pioneering A New Twist On Coworking Models</div>
+                  <div class="sidebar-item__news-title">Pioneering A New Twist On Coworking Models</div>
                 </div>
-                <div class="post-secondary__news">
+                <div class="sidebar-item__news">
                   <img src="./image/new3.png" alt="">
-                  <div class="news__title">The White-Label Software Model In Fintech</div>
+                  <div class="sidebar-item__news-title">The White-Label Software Model In Fintech</div>
                 </div>
               </div>
-              <div class="post-secondary">
-                <div class="post-secondary__title">Categories</div>
-                <div class="post-secondary__input">
+              <div class="sidebar-item">
+                <div class="sidebar-item__title">Categories</div>
+                <div class="sidebar-item__input">
                   <select name="Categories" id="Categories">
                     <option value="Select">Select</option>
                     <option value="opt1">opt1</option>
@@ -250,8 +258,8 @@
                   </select>
                 </div>
               </div>
-              <div class="post-secondary">
-                <div class="post-secondary__title">Tags</div>
+              <div class="sidebar-item">
+                <div class="sidebar-item__title">Tags</div>
                 <div class="tags">
                   <div class="tags__items">api</div>
                   <div class="tags__items">apps</div>
@@ -268,9 +276,9 @@
                   <div class="tags__items">wordpress</div>
                 </div>
               </div>
-              <div class="post-secondary">
-                <div class="post-secondary__title">Archive</div>
-                <div class="post-secondary__input">
+              <div class="sidebar-item">
+                <div class="sidebar-item__title">Archive</div>
+                <div class="sidebar-item__input">
                   <select name="Archive" id="Archive">
                     <option value="Select">Select</option>
                     <option value="opt1">opt1</option>
@@ -279,11 +287,11 @@
                   </select>
                 </div>
               </div>
-              <div class="post-secondary__img">
+              <div class="sidebar-item__img">
                 <img src="./image/sub-img.png" alt="">
                 <div class="img-wrap">
                   <h5 class="img-wrap__title">Subscribe To Our Newsletter Today</h5>
-                  <div class="btn btn--purple">Subscribe</div>
+                  <a href="#" class="btn btn--purple">Subscribe</a>
                 </div>
               </div>
             </div>
@@ -301,15 +309,17 @@
                 Subscribe to our newsletter <span>free</span> and stay updated on the latest developments!
               </h2>
               <div class="subscribe__input">
-                <input type="text" placeholder="Enter email">
-                <input type="submit" value="SUBsCRIBE" class="btn btn--blue">
+                <form action="" method="get">
+                  <input type="text" placeholder="Enter email">
+                  <a href="#" class="btn btn--blue">Subscribe</a>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="footer">
+    <footer class="footer pt-70">
       <div class="container">
         <div class="row">
           <div class="col" style="--col-lg: 2; --col-xs: 6;">
@@ -354,8 +364,10 @@
                 Subscribe to our newsletter to keep up to date on our marketing, website, design services, and tips.
               </div>
               <div class="footer-col__input">
-                <input type="text" placeholder="Enter email">
-                <div class="btn btn--blue">SUBMIT</div>
+                <form action="" method="get">
+                  <input type="text" placeholder="Enter email">
+                  <a href="#" class="btn btn--blue">SUBMIT</a>
+                </form>
               </div>
               <div class="footer-col__content">
                 We hate spam as much as you do. We will never, ever send you such emails. 

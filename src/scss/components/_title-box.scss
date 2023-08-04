@@ -8,6 +8,11 @@
   color: #2D3958;
   text-align: center;
   margin: 0 auto;
+  span {
+    background: linear-gradient(185.78deg, #61DCDF 0.38%, #886CFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .title-box__subtitle {
@@ -68,12 +73,6 @@
   img {
     margin: 0 auto;
   }
-}
-
-.gradient {
-  background: linear-gradient(185.78deg, #61DCDF 0.38%, #886CFF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .box-small {

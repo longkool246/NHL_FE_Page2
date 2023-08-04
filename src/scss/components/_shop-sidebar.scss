@@ -101,19 +101,29 @@
   }
 }
 
-.bar-min {
+.price-bar__min {
   left: 0;
 }
 
-.bar-max {
+.price-bar__max {
   right: -25px;
 }
 
-.shop-sidebar__filter {
+.shop-filter {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.shop-filter__price {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.shop-filter__button {
+  font-size: 14px;
+  color: #4F77FF;
 }
 
 .shop-main__header {
