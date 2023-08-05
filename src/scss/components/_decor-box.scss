@@ -80,7 +80,12 @@
 
 .decor-box__img {
   overflow: hidden;
-}
+  transition: 0.3s;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+  }
 
 .decor-box__bottom-right {
   &:after {
@@ -127,5 +132,5 @@
 }
 
 .testimonial-box__content {
-  margin-top: 30px;
+  padding-top: 30px;
 }

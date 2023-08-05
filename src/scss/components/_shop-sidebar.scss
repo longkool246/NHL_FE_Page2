@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #E7E5EA;
-  margin-top: 12px;
+  padding-top: 12px;
   padding-bottom: 17px;
   margin-bottom: 20px;
 }
@@ -41,15 +41,19 @@
 }
 
 .test:checked + label::before {
+  content: url('/image/Check.svg');
+  background-color: white;
+  text-align: center;
   background-color: #333;
-  color: #333;
+  color: white;
 }
+
 
 .choose {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .choose__check {
@@ -138,7 +142,7 @@
   font-size: 18px;
   font-weight: 500;
   text-align: center;
-  margin: 15px 0 5px 0;
+  padding: 15px 0 5px 0;
   color: #2D3958;
 }
 

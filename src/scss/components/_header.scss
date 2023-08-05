@@ -41,7 +41,12 @@
   align-items: center;
 }
 
+.header__right-search {
+  cursor: pointer;
+}
+
 .header__right-bag {
+  cursor: pointer;
   position: relative;
   &::before {
     position: absolute;

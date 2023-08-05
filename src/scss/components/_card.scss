@@ -3,10 +3,15 @@
   border: 1px solid #E7E5EA;
   padding: 40px 45px 70px 45px;
   text-align: center;
+  min-height: 100%;
   &:hover {
     transition: 0.3s ease;
     box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
   }  
+}
+
+.card-box {
+  min-height: 100%;
 }
 
 .card--active {
