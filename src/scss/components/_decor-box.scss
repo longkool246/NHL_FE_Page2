@@ -134,3 +134,38 @@
 .testimonial-box__content {
   padding-top: 30px;
 }
+
+
+
+.decor-box--bottom-right {
+  &:after {
+    border-radius: 50% 50% 50% 0;
+    bottom: 0;
+    right: var(--position);
+  }
+}
+
+.decor-box--bottom-left {
+  &:after {
+    border-radius: 50% 50% 0 50%;
+    bottom: 0;
+    left: var(--position);
+  }
+}
+
+.decor--box--top-left {
+  &:after {
+    border-radius: 50% 50% 0 50%;
+    top: 0;
+    left: var(--position); 
+  }
+}
+
+.decor-box--center-right {
+  &:after {
+    border-radius: 50% 50% 50% 0;
+    bottom: 50%;
+    transform: translateY(-50%);
+    right: var(--position);
+  }
+}

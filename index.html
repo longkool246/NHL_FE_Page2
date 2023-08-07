@@ -58,22 +58,22 @@
               </div>
             </div>
           </div>
-          <div class="decor-box decor-1 decor-box__bottom-right" style="--size: 80px; position: absolute; --color: var(--purple);">
+          <div class="decor-box decor-1 decor-box--bottom-right" style="--size: 80px; position: absolute; --color: var(--purple);">
             <div class="decor-box__img yellow" style="border-radius: 50% 50% 0 50%;">
               <img src="./image/decor1.png" alt="">
             </div>
           </div>
-          <div class="decor-box decor-2 decor-box__bottom-left" style="--size: 60px; position: absolute; --color: var(--turquoise);">
+          <div class="decor-box decor-2 decor-box--bottom-left" style="--size: 60px; position: absolute; --color: var(--turquoise);">
             <div class="decor-box__img blue" style="border-radius: 50% 50% 50% 0;">
               <img src="./image/decor2.png" alt="">
             </div>
           </div>
-          <div class="decor-box decor-3 decor-box__bottom-left" style="--size: 60px; position: absolute; --color: var(--blue);">
+          <div class="decor-box decor-3 decor-box--bottom-left" style="--size: 60px; position: absolute; --color: var(--blue);">
             <div class="decor-box__img ocean" style="border-radius: 50% 50% 50% 0;">
               <img src="./image/decor3.png" alt="">
             </div>
           </div>
-          <div class="decor-box decor-4 decor-box__bottom-right" style="--size: 60px; position: absolute; --color: var(--pink);">
+          <div class="decor-box decor-4 decor-box--bottom-right" style="--size: 60px; position: absolute; --color: var(--pink);">
             <div class="decor-box__img purple" style="border-radius: 50% 50% 0 50%;">
               <img src="./image/decor4.png" alt="">
             </div>
@@ -93,33 +93,35 @@
                 We provide office space that’s flexible to your needs and fully customisable.
               </div>
             </div>
-            <div class="card-box decor-box decor-box__bottom-right mb-70">
-              <div class="row">
-                <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12;">
-                  <div class="card">
-                    <div class="card__icon purple-second">
-                      <img src="./image/office.svg" alt="">
+            <div class="decor-box decor-box--bottom-right mb-70">
+              <div class="card-box">
+                <div class="row">
+                  <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12;">
+                    <div class="card">
+                      <div class="card__icon purple-second">
+                        <img src="./image/office.svg" alt="">
+                      </div>
+                      <h5 class="card__title">Private Office</h5>
+                      <div class="card__text">Our coworking spaces are designed with collaboration in mind.</div>
                     </div>
-                    <h5 class="card__title">Private Office</h5>
-                    <div class="card__text">Our coworking spaces are designed with collaboration in mind.</div>
                   </div>
-                </div>
-                <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12;">
-                  <div class="card">
-                    <div class="card__icon purple-second">
-                      <img src="./image/DDesk.svg" alt="">
+                  <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12;">
+                    <div class="card">
+                      <div class="card__icon purple-second">
+                        <img src="./image/DDesk.svg" alt="">
+                      </div>
+                      <h5 class="card__title">Dedicated Desk</h5>
+                      <div class="card__text">Our coworking spaces are designed with collaboration in mind.</div>
                     </div>
-                    <h5 class="card__title">Dedicated Desk</h5>
-                    <div class="card__text">Our coworking spaces are designed with collaboration in mind.</div>
                   </div>
-                </div>
-                <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12;">
-                  <div class="card">
-                    <div class="card__icon purple-second">
-                      <img src="./image/HDesk.svg" alt="">
+                  <div class="col" style="--col-lg: 4; --col-md: 6; --col-xs: 12;">
+                    <div class="card">
+                      <div class="card__icon purple-second">
+                        <img src="./image/HDesk.svg" alt="">
+                      </div>
+                      <h5 class="card__title">Hot Desk</h5>
+                      <div class="card__text">Our coworking spaces are designed with collaboration in mind.</div>
                     </div>
-                    <h5 class="card__title">Hot Desk</h5>
-                    <div class="card__text">Our coworking spaces are designed with collaboration in mind.</div>
                   </div>
                 </div>
               </div>
@@ -203,8 +205,10 @@
           <div class="container">
             <div class="feature">
               <div class="feature__left">
-                <div class="feature__left-img decor-box decor-box__bottom-left" style="--size: 90px; --color: var(--turquoise)">
-                  <img src="./image/feature.png" alt="">
+                <div class="decor-box decor-box__bottom-left" style="--size: 90px; --color: var(--turquoise)">
+                  <div class="feature__left-img">
+                    <img src="./image/feature.png" alt="">
+                  </div>
                 </div>
                 <div class="info">
                   <h5 class="info__title">
@@ -254,16 +258,16 @@
                   From a single desk to a whole building. The choice is yours
                 </div>
               </div>
+              <div></div>
               <div class="office-box">
-                <div class="office-box__position decor-box decor-box__center-right pt-60 pl-100 pr-100 pb-40" style="--size: 70px; --color: var(--yellow);">
-                  <div class="title-box box-small">
-                    <div class="office-box__title">
+                <div class="office-box__position">
+                    <div class="office-box__subtitle">
                       Office Space
                     </div>
-                    <h4 class="title-box__center align-left">
+                    <h4 class="office-box__title">
                       Flexible workspace designed around your needs and comfort
                     </h4>
-                    <div class="title-box__subtitle align-left pb-40">
+                    <div class="office-box__content pb-40">
                       Whether you need a single desk or a whole building, we provide office space that’s flexible to your needs and fully customisable. Available for a day, or as long as you need. 
                     </div>
                     <div class="office-box__link pb-55">
@@ -275,7 +279,6 @@
                       <div class="nav-items"></div>
                       <div class="nav-items"></div>
                     </div>
-                  </div>
                 </div>
                 <div class="office-right">
                   <div class="office-right__img">

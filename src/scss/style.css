@@ -960,7 +960,8 @@ select {
 }
 
 .test:checked + label::before {
-  content: url("/image/Check.svg");
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
   background-color: white;
   text-align: center;
   background-color: #333;
@@ -1401,13 +1402,6 @@ select {
   position: relative;
   padding-bottom: 120px;
 }
-.office-box .office-box__position {
-  z-index: 99;
-}
-.office-box .office-box__position:hover {
-  transition: 0.3s ease;
-  box-shadow: 0 60px 40px rgba(18, 2, 47, 0.1);
-}
 
 .office-right__img {
   position: absolute;
@@ -1740,6 +1734,31 @@ input:checked + .slider {
   padding-top: 30px;
 }
 
+.decor-box--bottom-right:after {
+  border-radius: 50% 50% 50% 0;
+  bottom: 0;
+  right: var(--position);
+}
+
+.decor-box--bottom-left:after {
+  border-radius: 50% 50% 0 50%;
+  bottom: 0;
+  left: var(--position);
+}
+
+.decor--box--top-left:after {
+  border-radius: 50% 50% 0 50%;
+  top: 0;
+  left: var(--position);
+}
+
+.decor-box--center-right:after {
+  border-radius: 50% 50% 50% 0;
+  bottom: 50%;
+  transform: translateY(-50%);
+  right: var(--position);
+}
+
 .card {
   border-radius: 12px;
   border: 1px solid #E7E5EA;
@@ -1784,16 +1803,48 @@ input:checked + .slider {
 }
 
 .office-box__position {
+  position: relative;
   background-color: #ffffff;
   border-radius: 20px;
-  width: 570px;
+  width: 50%;
+  padding: 60px 100px 40px 100px;
   transition: 0.3 ease;
+  z-index: 99;
+}
+.office-box__position:hover {
+  transition: 0.3s ease;
+  box-shadow: 0 60px 40px rgba(18, 2, 47, 0.1);
+}
+.office-box__position:after {
+  content: "";
+  position: absolute;
+  top: 180px;
+  right: -70px;
+  width: 60px;
+  height: 60px;
+  background-color: #ffc623;
+  border-radius: 50%;
+  border-bottom-left-radius: 0px;
 }
 
-.office-box__title {
+.office-box__subtitle {
   color: #4F77FF;
   font-size: 18px;
   margin-bottom: 30px;
+}
+
+.office-box__title {
+  color: #2D3958;
+  margin: 0 auto;
+}
+
+.office-box__content {
+  margin: 0 auto;
+  padding-top: 30px;
+  max-width: 520px;
+  font-size: 18px;
+  font-family: "DM Sans";
+  letter-spacing: -0.3px;
 }
 
 .office-box__link {

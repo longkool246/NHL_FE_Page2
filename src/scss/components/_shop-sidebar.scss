@@ -41,7 +41,8 @@
 }
 
 .test:checked + label::before {
-  content: url('/image/Check.svg');
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
   background-color: white;
   text-align: center;
   background-color: #333;
