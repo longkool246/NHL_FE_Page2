@@ -87,7 +87,7 @@
     }
   }
 
-.decor-box__bottom-right {
+.decor-box--bottom-right {
   &:after {
     border-radius: 50% 50% 50% 0;
     bottom: 0;
@@ -95,7 +95,7 @@
   }
 }
 
-.decor-box__bottom-left {
+.decor-box--bottom-left {
   &:after {
     border-radius: 50% 50% 0 50%;
     bottom: 0;
@@ -103,7 +103,7 @@
   }
 }
 
-.decor--box__top-left {
+.decor-box--top-left {
   &:after {
     border-radius: 50% 50% 0 50%;
     top: 0;
@@ -111,7 +111,7 @@
   }
 }
 
-.decor-box__center-right {
+.decor-box--center-right {
   &:after {
     border-radius: 50% 50% 50% 0;
     bottom: 50%;

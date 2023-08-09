@@ -1,5 +1,8 @@
 .blog__post {
   min-width: 835px;
+  @media (max-width: 1199px) {
+    min-width: unset;
+  }
 }
 
 .post-main {
@@ -20,7 +23,7 @@
   }
 }
 
-.content__text {
+.post-main__text {
   font-family: "DM Sans";
   font-size: 16px;
   line-height: 1.62;
@@ -61,7 +64,7 @@
   }
 }
 
-.content__quote {
+.post-main__quote {
   padding: 30px 50px 35px 50px;
   background-color: #F8FAFC;
   color: #2D3958;
@@ -108,7 +111,7 @@
   border: none;
 }
 
-.content__footer {
+.post-main__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;

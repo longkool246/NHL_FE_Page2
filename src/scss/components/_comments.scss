@@ -1,6 +1,9 @@
 .comments {
   padding: 50px 30px;
   border: 1px solid #E7E5EA;
+  @media (max-width: 767px) {
+    padding: 25px;
+  }
 }
 
 .comments__single {
@@ -8,6 +11,9 @@
   gap: 30px;
   padding: 20px 0;
   border-top: 1px solid #E7E5EA;
+  @media (max-width: 767px) {
+    gap: 15px;
+  }
 }
 
 .comments__header {
@@ -15,6 +21,10 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
+  @media (max-width: 575px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .comments__avatar {
@@ -40,7 +50,7 @@
   padding-bottom: 20px;
 }
 
-.comments__box-contact {
+.comments-box__contact {
   display: flex;
   justify-content: space-between;
   gap: 20px;

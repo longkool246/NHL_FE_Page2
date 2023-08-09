@@ -119,6 +119,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 991px) {
+   flex-direction: column; 
+  }
 }
 
 .shop-filter__price {

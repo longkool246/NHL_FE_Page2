@@ -1,18 +1,26 @@
 .products {
   display: flex;
   gap: 130px;
+  @media (max-width: 1199px) {
+    gap: 50px;
+  }
+  @media (max-width: 1199px) {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 .products__reviews {
-  max-width: 570px;
+  min-width: 570px;
+  @media (max-width: 991px) {
+    min-width: unset;
+    width: 100%;
+  }
 }
 
 .products-main {
   position: relative;
   margin-bottom: 30px;
-  img {
-    max-width: 570px;
-  }
   .products-main__zoom {
     position: absolute;
     top: 15px;

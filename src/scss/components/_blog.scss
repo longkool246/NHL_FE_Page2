@@ -1,8 +1,17 @@
 .blog {
   display: flex;
   gap: 65px;
+  @media (max-width: 1199px) {
+    gap: 30px;
+  }
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 }
 
 .blog__sidebar {
   width: 100%;
+  @media (max-width: 1199px) {
+    min-width: 235px;
+  }
 }
