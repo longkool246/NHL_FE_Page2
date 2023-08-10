@@ -55,7 +55,10 @@
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+  @media (max-width: 565px) {
+    --size: 50px;
+  }  
 }
 
 .space__content--title {
@@ -65,6 +68,15 @@
 .info__title {
   font-weight: 400;
   color: #2D3958;
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+.info__price {
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
 }
 
 .feature {
@@ -141,6 +153,9 @@
   margin-bottom: 15px;
   font-size: 22px;
   align-items: center;
+  @media (max-width: 565px) {
+    display: block;
+  }
 }
 
 .feature__right {
@@ -187,7 +202,9 @@
 .office-box {
   position: relative;
   padding-bottom: 120px;
-
+  @media (max-width: 767px) {
+    padding-bottom: 60px;
+  }
 }
 
 .office-right__img {
@@ -318,6 +335,9 @@ input:checked+ .slider {
     transition: 0.3s ease;
     box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.20);
   }
+  @media (max-width: 565px) {
+    padding: 20px 30px 0 30px;
+  }
 }
 
 .price-box__plan {
@@ -336,6 +356,12 @@ input:checked+ .slider {
   margin-bottom: 5px; 
   span {
     font-size: 64px;
+    @media (max-width: 565px) {
+      font-size: 50px;
+    }
+  }
+  @media (max-width: 565px) {
+    font-size: 20px;
   }
 }
 
@@ -373,6 +399,9 @@ input:checked+ .slider {
   font-size: 22px;
   line-height: 1.45;
   color: #2D3958;
+  @media (max-width: 565px) {
+    font-size: 16px;
+  }
 }
 
 .workspace__btn {

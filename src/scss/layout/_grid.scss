@@ -12,6 +12,10 @@
   padding-top: var(--grid-col-gap-horizontal);
 }
 
+.col {
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .col {
     width: calc(var(--col-sm) / var(--grid) * 100%);

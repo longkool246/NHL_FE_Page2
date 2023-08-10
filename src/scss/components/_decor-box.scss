@@ -88,6 +88,9 @@
       transform: scale(1.1);
       transition: 0.3s;
     }
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
 
 .decor-box--bottom-right {

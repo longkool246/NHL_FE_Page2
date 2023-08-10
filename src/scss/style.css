@@ -80,6 +80,21 @@ h3 {
   line-height: 1.2;
   letter-spacing: -0.84px;
 }
+@media (max-width: 1199px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 991px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 26px;
+  }
+}
 
 h4 {
   font-size: 36px;
@@ -94,6 +109,11 @@ h4 {
 @media (max-width: 991px) {
   h4 {
     font-size: 24px;
+  }
+}
+@media (max-width: 565px) {
+  h4 {
+    font-size: 16px;
   }
 }
 
@@ -790,6 +810,11 @@ select {
   height: 48px;
   width: 100%;
 }
+@media (max-width: 565px) {
+  select {
+    font-size: 12px;
+  }
+}
 
 .paging {
   display: flex;
@@ -977,6 +1002,11 @@ select {
   position: relative;
   margin-bottom: 30px;
 }
+@media (max-width: 565px) {
+  .products-main img {
+    margin: auto;
+  }
+}
 .products-main .products-main__zoom {
   position: absolute;
   top: 15px;
@@ -1085,12 +1115,22 @@ select {
   gap: 40px;
   align-items: center;
 }
+@media (max-width: 565px) {
+  .all-title {
+    flex-wrap: wrap;
+  }
+}
 
 .all-title__item {
   font-size: 18px;
   font-weight: 500;
   color: #2D3958;
   letter-spacing: 0.4px;
+}
+@media (max-width: 565px) {
+  .all-title__item {
+    font-size: 12px;
+  }
 }
 
 .all-content {
@@ -1142,6 +1182,11 @@ select {
 
 .shop-main__title {
   color: #2D3958;
+}
+@media (max-width: 565px) {
+  .shop-main__title {
+    font-size: 16px;
+  }
 }
 
 .test {
@@ -1262,12 +1307,23 @@ select {
   align-items: center;
 }
 
+@media (max-width: 565px) {
+  .shop-product img {
+    width: 100%;
+  }
+}
+
 .shop-product__title {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
   padding: 15px 0 5px 0;
   color: #2D3958;
+}
+@media (max-width: 565px) {
+  .shop-product__title {
+    font-size: 15px;
+  }
 }
 
 .shop-product__price {
@@ -1532,6 +1588,11 @@ select {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 565px) {
+  .space__icon {
+    --size: 50px;
+  }
+}
 
 .space__content--title {
   color: #2D3958;
@@ -1540,6 +1601,17 @@ select {
 .info__title {
   font-weight: 400;
   color: #2D3958;
+}
+@media (max-width: 767px) {
+  .info__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .info__price {
+    font-size: 14px;
+  }
 }
 
 .feature {
@@ -1611,6 +1683,11 @@ select {
   font-size: 22px;
   align-items: center;
 }
+@media (max-width: 565px) {
+  .info {
+    display: block;
+  }
+}
 
 .feature__right {
   margin-top: 50px;
@@ -1658,6 +1735,11 @@ select {
 .office-box {
   position: relative;
   padding-bottom: 120px;
+}
+@media (max-width: 767px) {
+  .office-box {
+    padding-bottom: 60px;
+  }
 }
 
 .office-right__img {
@@ -1789,6 +1871,11 @@ input:checked + .slider {
   transition: 0.3s ease;
   box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
 }
+@media (max-width: 565px) {
+  .price-box {
+    padding: 20px 30px 0 30px;
+  }
+}
 
 .price-box__plan {
   color: #4F77FF;
@@ -1807,6 +1894,16 @@ input:checked + .slider {
 }
 .price-box__title span {
   font-size: 64px;
+}
+@media (max-width: 565px) {
+  .price-box__title span {
+    font-size: 50px;
+  }
+}
+@media (max-width: 565px) {
+  .price-box__title {
+    font-size: 20px;
+  }
 }
 
 .price-box__content {
@@ -1843,6 +1940,11 @@ input:checked + .slider {
   font-size: 22px;
   line-height: 1.45;
   color: #2D3958;
+}
+@media (max-width: 565px) {
+  .tick__content {
+    font-size: 16px;
+  }
 }
 
 .workspace__btn {
@@ -1954,6 +2056,11 @@ input:checked + .slider {
 .decor-box__img:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+@media (max-width: 991px) {
+  .decor-box__img {
+    display: none;
+  }
 }
 
 .decor-box--bottom-right:after {
@@ -2094,6 +2201,12 @@ input:checked + .slider {
     width: 100%;
   }
 }
+@media (max-width: 767px) {
+  .office-box__position {
+    content: none;
+    padding: 30px 20px 40px 20px;
+  }
+}
 .office-box__subtitle {
   color: #4F77FF;
   font-size: 18px;
@@ -2178,9 +2291,19 @@ input:checked + .slider {
 .py-100 {
   padding: 100px 0;
 }
+@media (max-width: 565px) {
+  .py-100 {
+    padding: 50px 0;
+  }
+}
 
 .py-120 {
   padding: 120px 0;
+}
+@media (max-width: 767px) {
+  .py-120 {
+    padding: 60px 0;
+  }
 }
 
 .pt-40 {
@@ -2190,9 +2313,19 @@ input:checked + .slider {
 .pt-60 {
   padding-top: 60px;
 }
+@media (max-width: 565px) {
+  .pt-60 {
+    padding-top: 34px;
+  }
+}
 
 .pt-70 {
   padding-top: 70px;
+}
+@media (max-width: 565px) {
+  .pt-70 {
+    padding-top: 38px;
+  }
 }
 
 .pb-55 {
@@ -2202,17 +2335,37 @@ input:checked + .slider {
 .pt-100 {
   padding-top: 100px;
 }
+@media (max-width: 565px) {
+  .pt-100 {
+    padding-top: 50px;
+  }
+}
 
 .pb-100 {
   padding-bottom: 100px;
+}
+@media (max-width: 565px) {
+  .pb-100 {
+    padding-bottom: 50px;
+  }
 }
 
 .pt-110 {
   padding-top: 110px;
 }
+@media (max-width: 565px) {
+  .pt-110 {
+    padding-top: 60px;
+  }
+}
 
 .pt-120 {
   padding-top: 120px;
+}
+@media (max-width: 767px) {
+  .pt-120 {
+    padding-top: 60px;
+  }
 }
 
 .pb-30 {
@@ -2230,29 +2383,69 @@ input:checked + .slider {
 .pb-120 {
   padding-bottom: 120px;
 }
+@media (max-width: 767px) {
+  .pb-120 {
+    padding-bottom: 60px;
+  }
+}
 
 .pl-65 {
   padding-left: 65px;
+}
+@media (max-width: 565px) {
+  .pl-65 {
+    padding-left: 20px;
+  }
 }
 
 .pl-100 {
   padding-left: 100px;
 }
+@media (max-width: 565px) {
+  .pl-100 {
+    padding-left: 50px;
+  }
+}
 
 .pr-65 {
   padding-right: 65px;
+}
+@media (max-width: 565px) {
+  .pr-65 {
+    padding-right: 20px;
+  }
 }
 
 .pr-100 {
   padding-right: 100px;
 }
+@media (max-width: 565px) {
+  .pr-100 {
+    padding-right: 50px;
+  }
+}
 
 .mt-100 {
   margin-top: 100px;
 }
+@media (max-width: 767px) {
+  .mt-100 {
+    margin-top: 55px;
+  }
+}
+@media (max-width: 565px) {
+  .mt-100 {
+    margin-top: 40px;
+  }
+}
 
 .mt-200 {
   margin-top: 200px;
+}
+@media (max-width: 565px) {
+  .mt-200 {
+    margin-top: 90px;
+  }
 }
 
 .mb-40 {
@@ -2270,9 +2463,19 @@ input:checked + .slider {
 .mb-70 {
   margin-bottom: 70px;
 }
+@media (max-width: 565px) {
+  .mb-70 {
+    margin-bottom: 35px;
+  }
+}
 
 .mb-80 {
   margin-bottom: 80px;
+}
+@media (max-width: 565px) {
+  .mb-80 {
+    margin-bottom: 40px;
+  }
 }
 
 .mt-30 {
@@ -2302,6 +2505,11 @@ input:checked + .slider {
 .mb-100 {
   margin-bottom: 100px;
 }
+@media (max-width: 565px) {
+  .mb-100 {
+    margin-bottom: 50px;
+  }
+}
 
 .align-left {
   text-align: left;
@@ -2327,6 +2535,10 @@ input:checked + .slider {
   padding-left: calc(var(--grid-col-gap-vertical) / 2);
   padding-right: calc(var(--grid-col-gap-vertical) / 2);
   padding-top: var(--grid-col-gap-horizontal);
+}
+
+.col {
+  width: 100%;
 }
 
 @media (min-width: 576px) {

@@ -4,10 +4,16 @@
 
 .py-100 {
   padding: 100px 0;
+  @media (max-width: 565px) {
+    padding: 50px 0;
+  }
 }
 
 .py-120 {
   padding: 120px 0;
+  @media (max-width: 767px) {
+    padding: 60px 0;
+  }
 }
 
 .pt-40 {
@@ -16,10 +22,16 @@
 
 .pt-60 {
   padding-top: 60px;
+  @media (max-width: 565px) {
+    padding-top: 34px;
+  }
 }
 
 .pt-70 {
   padding-top: 70px;
+  @media (max-width: 565px) {
+    padding-top: 38px;
+  }
 }
 
 .pb-55 {
@@ -28,18 +40,30 @@
 
 .pt-100 {
   padding-top: 100px;
+  @media (max-width: 565px) {
+    padding-top: 50px;
+  }
 }
 
 .pb-100 {
   padding-bottom: 100px;
+  @media (max-width: 565px) {
+    padding-bottom: 50px;
+  }
 }
 
 .pt-110 {
   padding-top: 110px;
+  @media (max-width: 565px) {
+    padding-top: 60px;
+  }
 }
 
 .pt-120 {
   padding-top: 120px;
+  @media (max-width: 767px) {
+    padding-top: 60px;
+  }
 }
 
 .pb-30 {
@@ -56,30 +80,54 @@
 
 .pb-120 {
   padding-bottom: 120px;
+  @media (max-width: 767px) {
+    padding-bottom: 60px;
+  }
 }
 
 .pl-65 {
   padding-left: 65px;
+  @media (max-width: 565px) {
+    padding-left: 20px;
+  }
 }
 
 .pl-100 {
   padding-left: 100px;
+  @media (max-width: 565px) {
+    padding-left: 50px;
+  }
 }
 
 .pr-65 {
   padding-right: 65px;
+  @media (max-width: 565px) {
+    padding-right: 20px;
+  }
 }
 
 .pr-100 {
   padding-right: 100px;
+  @media (max-width: 565px) {
+  padding-right: 50px;
+  }
 }
 
 .mt-100 {
   margin-top: 100px;
+  @media (max-width: 767px) {
+    margin-top: 55px;
+  }
+  @media (max-width: 565px) {
+    margin-top: 40px;
+  }
 }
 
 .mt-200 {
   margin-top: 200px;
+  @media (max-width: 565px) {
+    margin-top: 90px;
+  }
 }
 
 .mb-40 {
@@ -96,10 +144,16 @@
 
 .mb-70 {
   margin-bottom: 70px;
+  @media (max-width: 565px) {
+    margin-bottom: 35px;
+  }
 }
 
 .mb-80 {
   margin-bottom: 80px;
+  @media (max-width: 565px) {
+    margin-bottom: 40px;
+  }
 }
 
 .mt-30 {
@@ -128,6 +182,9 @@
 
 .mb-100 {
   margin-bottom: 100px;
+  @media (max-width: 565px) {
+    margin-bottom: 50px;
+  }
 }
 
 .align-left {

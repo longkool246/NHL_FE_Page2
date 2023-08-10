@@ -21,6 +21,11 @@
 .products-main {
   position: relative;
   margin-bottom: 30px;
+  img {
+    @media (max-width: 565px) {
+      margin: auto;
+    }
+  }
   .products-main__zoom {
     position: absolute;
     top: 15px;
@@ -129,6 +134,9 @@
   justify-content: center;
   gap: 40px;
   align-items: center;
+  @media (max-width: 565px) {
+    flex-wrap: wrap;
+  }
 }
 
 .all-title__item {
@@ -136,6 +144,9 @@
   font-weight: 500;
   color: #2D3958;
   letter-spacing: 0.4px;
+  @media (max-width: 565px) {
+    font-size: 12px;
+  }
 }
 
 .all-content {

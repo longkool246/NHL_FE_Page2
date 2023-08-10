@@ -9,4 +9,7 @@ select {
   font-family: "DM Sans";
   height: 48px;
   width: 100%;
+  @media (max-width: 565px) {
+    font-size: 12px;
+  }
 }
