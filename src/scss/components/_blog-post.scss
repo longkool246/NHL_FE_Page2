@@ -64,6 +64,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .post-main__content {
+    padding: 15px 10px 15px 10px;
+  }
+}
+
 .post-main__quote {
   padding: 30px 50px 35px 50px;
   background-color: #F8FAFC;

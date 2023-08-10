@@ -14,6 +14,9 @@
     width: var(--size);
     height: var(--size);
     background-color: var(--color);
+    @media (max-width: 991px) {
+      content: none;
+    }
   }
 }
 
@@ -134,8 +137,6 @@
 .testimonial-box__content {
   padding-top: 30px;
 }
-
-
 
 .decor-box--bottom-right {
   &:after {

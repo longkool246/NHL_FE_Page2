@@ -6,6 +6,13 @@
   transition: 0.3s ease;
 }
 
+.logo {
+  @media (max-width: 991px) {
+    width: 40%;
+  }
+
+}
+
 .header__bar {
   display: none;
   z-index: 99;

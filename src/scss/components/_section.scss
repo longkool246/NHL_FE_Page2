@@ -5,6 +5,9 @@
 .section--banner {
   background-image: url("../../image/BG.png");
   padding: 200px 0;
+  @media (max-width: 767px) {
+    padding: 140px 0;
+  }
 }
 
 .section__bg {

@@ -77,6 +77,17 @@
   line-height: 1.5;
 }
 
+.article {
+  @media (max-width: 1099px) {
+    text-align: center;
+  }
+  img {
+    @media (max-width: 1099px) {
+      margin: auto;
+    }
+  }
+}
+
 .comments__title {
   font-size: 18px;
   color: #2D3958;

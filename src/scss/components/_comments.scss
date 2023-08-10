@@ -48,6 +48,9 @@
   border-top: none;
   border-bottom: 1px solid #E7E5EA;
   padding-bottom: 20px;
+  @media (max-width: 950px) {
+    padding-left: 50px;
+  }
 }
 
 .comments-box__contact {
