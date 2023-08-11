@@ -1816,10 +1816,6 @@ input:checked + .slider {
   background-color: #34C635;
 }
 
-input:checked + .slider {
-  transform: translateX(37px);
-}
-
 .slider {
   position: absolute;
   cursor: pointer;
@@ -1961,6 +1957,11 @@ input:checked + .slider {
   line-height: 1.55;
   letter-spacing: -0.3px;
   color: #7B88A8;
+}
+
+input:checked + .slider::before {
+  transform: translateX(37px);
+  background-color: #ffffff;
 }
 
 .decor-box {
