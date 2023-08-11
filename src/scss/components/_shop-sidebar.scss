@@ -35,8 +35,8 @@
 .choose__check label::before {
   content: "";
   display: inline-block;
-  width: 15px; /* Chiều rộng checkbox tùy ý */
-  height: 15px; /* Chiều cao checkbox tùy ý */
+  width: 17px; /* Chiều rộng checkbox tùy ý */
+  height: 17px; /* Chiều  cao checkbox tùy ý */
   margin-right: 10px; /* Khoảng cách giữa checkbox và label tùy ý */
   border: none; /* Màu đường viền của checkbox */
   background-color: #E7E5EA; /* Màu nền của checkbox */
@@ -44,8 +44,7 @@
 }
 
 .test:checked + label::before {
-  content: "\f00c";
-  font-family: "Font Awesome 6 Free";
+  content: "\2713";
   background-color: white;
   text-align: center;
   background-color: #333;
