@@ -43,6 +43,9 @@
   display: flex;
   justify-content: center;
   position: relative;  
+  @media (max-width: 565px) {
+    min-height: 70vh;
+  }
 }
 
 .section__team {

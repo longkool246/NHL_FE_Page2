@@ -14,7 +14,7 @@
     width: var(--size);
     height: var(--size);
     background-color: var(--color);
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
       content: none;
     }
   }
@@ -88,7 +88,7 @@
       transform: scale(1.1);
       transition: 0.3s;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
       display: none;
     }
   }

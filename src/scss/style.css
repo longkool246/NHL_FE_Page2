@@ -233,6 +233,11 @@ img {
   justify-content: center;
   position: relative;
 }
+@media (max-width: 565px) {
+  .section__coworking {
+    min-height: 70vh;
+  }
+}
 
 .section__team {
   max-width: 1300px;
@@ -462,6 +467,11 @@ img {
 .btn:hover {
   opacity: 0.8;
 }
+@media (max-width: 565px) {
+  .btn {
+    font-size: 10px;
+  }
+}
 
 .btn--blue {
   background-color: #4F77FF;
@@ -484,6 +494,11 @@ img {
   padding: 18px 32px;
   background-color: #4F77FF;
   cursor: pointer;
+}
+@media (max-width: 565px) {
+  .btn--coworking {
+    padding: 15px 26px;
+  }
 }
 
 .btn--full {
@@ -1982,7 +1997,7 @@ input:checked + .slider::before {
   height: var(--size);
   background-color: var(--color);
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .decor-box:after {
     content: none;
   }
@@ -2057,7 +2072,7 @@ input:checked + .slider::before {
   transform: scale(1.1);
   transition: 0.3s;
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .decor-box__img {
     display: none;
   }
